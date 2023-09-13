@@ -1,13 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --xRed: rgb(197, 1, 1);
+  --oBlack: rgb(68, 68, 68);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  
+   background-image: url("https://img.freepik.com/free-photo/colorful-leaves-placed-brown-wood-scene_1150-17029.jpg?w=1060&t=st=1694610848~exp=1694611448~hmac=7f38de1d9340bd6b30b03f41097367e5d6eea9e95058e10be1369f2907555e94");
+
+  background-size: 100% 100%;   /*to fit background-image: ; */
+
+  background-attachment: fixed;
+  background-position: center;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+h1
+
+{
+
+color: white;
+}
+
+@media screen and (max-width:550px){
+
+h1
+{
+font-size: 1.5rem;
+
+}
+
+.x-score {
+font-size: 1rem;
+}
+
+.o-score {
+font-size: 1rem;
+}
+.o-tie {
+font-size: 1rem;
+}
+
+.box {
+ 
+    width: 4rem;
+    height: 4rem;
+    font-size: 2em;
+ 
+    line-height: 0;
+  
+}
+}
+
+
+@media screen and (max-width:420px){
+
+h1
+{
+font-size: 1.3rem;
+
+
+}
 }
